@@ -15,3 +15,22 @@ Can start multiple clients at the same time.
 ```
 python ftpclient.py 8000
 ```
+
+### Requests
+* Download file from the server
+Use get command in the request for downloading file from the server. The downloaded file will be saved as "new{filename}".
+```
+get [filename]
+```
+
+* Upload file to the server
+Use upload command in the request for uploading file to the server. The uploaded file will be saved as "new{filename}".
+```
+upload [filename]
+```
+
+* Quit
+Use quit command to disconnect from the server.
+```
+quit
+```
